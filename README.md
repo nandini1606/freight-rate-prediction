@@ -42,7 +42,7 @@ python run.py
 python score.py --predictions validation_predictions.csv --december-predictions model/december_predictions.csv
 ```
 
-The run prints chronological validation metrics, writes `validation_predictions.csv`, and saves the fitted model and `december_predictions.csv` in `artifacts/`. It leaves the original December input file unchanged. The scorer writes `scorer_results/candidate_december.png`.
+The run prints chronological validation metrics, writes `validation_predictions.csv`, and saves the fitted model and `december_predictions.csv` in `model/`. It leaves the original December input file unchanged. The scorer writes `scorer_results/candidate_december.png`.
 
 ## Output checks and submission
 
